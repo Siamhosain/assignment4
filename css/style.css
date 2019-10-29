@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.signup-section{
+background: #1e5799;
+background: -moz-linear-gradient(45deg, #1e5799 1%, #008598 98%);
+background: -webkit-linear-gradient(45deg, #1e5799 1%,#008598 98%);
+background: linear-gradient(45deg, #1e5799 1%,#008598 98%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799',
+ endColorstr='#008598',GradientType=1 );
+	min-height:100vh;
+}
+.signup-box{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: center;
+}
+.signup-box span{
+    font-size: x-large;
+}
+.signup-box img{
+}
+.signup-box h1{
+    font-size: 30px;
+    color: #e6d9d9;
+}
+.signup-form{
+    padding: 35px 30px;
+}
+.signup-form form{
+    background: #EEEEEE;
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 13px 5px #55555557
+}
+.signup-form form label{color: #555;}
+.signup-form form input{
+    width: 100%;
+    padding: 4px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+    border: 1px solid #55555580;
+}
+.signup-form form input[type="submit"] {
+	    color:#fff;
+	    margin-top: 15px
+	    background:rgb(0,142,193);
+	    background: -moz-linear-gradient(top,rgba(0,142,193,1) 0%,rgba(40,123,188,1) 100%);
+	    background: -webkit-linear-gradient(top,rgba(0,142,193,1) 0%,rgba(40,123,188,1) 100%);
+	    background: -moz-linear-gradient(to bottom,rgba(0,142,193,1) 0%,rgba(40,123,188,1) 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#008ec1", endColorstr="#287bbc",GradientType=0);
+cursor: pointer;
+margin-top: 15px;
+}
+.signup-form p{color: #ffffff9e;}
+.signup-form form p{text-align: center;color: #555;}
+.signup-form form a{
+    color: #555555c9;
+    font-weight: 500;
+}
